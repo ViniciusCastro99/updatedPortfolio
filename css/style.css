@@ -1,0 +1,427 @@
+/*Geral*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+section{
+    
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+body{
+    background-color: #e5e5e6;
+    transition: 0.5s;
+}
+
+
+#main-container{
+    background-color: #fff ;
+    border-radius: 20px;
+    padding: 20px;
+    /* margin-top: 100px; */
+    margin: 130px auto 20px auto;
+    width: 90%;
+    transition: 0.5s;
+    
+}
+
+.educationItem, .otherCoursesItem, .projectItem{
+    border: solid 1px rgb(196, 196, 196);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 40%;
+    transition: 0.1s;
+}
+
+.educationItem:hover, .otherCoursesItem:hover, .projectItem:hover{
+    border: solid 2px #5086c1;
+    width: 50%;
+}
+
+.projectItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.projectItem h3{
+    margin-top: 1rem;
+}
+
+
+.educationItem{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.univespImg{
+    width: 90%;
+}
+
+.bachelorDegreeText{
+    padding: 1rem;
+}
+
+/*Nav*/
+
+nav{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #5086c1;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    flex-wrap: wrap;
+   
+}
+
+#navUl{
+    display: flex;
+}
+
+#navUl, #colorContainer{
+    margin-top: 0.5rem;
+}
+
+.navLi{
+    margin-left: 20px;
+    list-style: none;
+}
+
+#colorContainer{
+    margin-left: 20px;
+}
+
+.navA{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#colorContainer{
+    display: flex;
+    /*border: solid 1px black;*/
+    padding-left: 1px;
+    width: 100px;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+
+.colorTheme{
+    border: solid 1px black;
+    margin: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.colorTheme:hover{
+    cursor: pointer;
+}
+
+#blueTheme{
+    background-color: #5086c1;
+}
+
+
+#blackTheme{
+    background-color: #222020;
+}
+
+main{
+    margin: 20px 30px 20px 30px;
+}
+
+/*Apresentation*/
+
+h1{
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+#aboutMe{
+    margin: 2rem 0 2rem 0;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+#apresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+#profileImg{
+    border-radius: 700px;
+    width: 350px;
+    height: 350px;
+    margin: 0 30px 30px 0;
+    box-shadow: 1px 2px 12px;
+    transition: 0.5s;
+}
+
+#textApresentation{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+#apresentationSocialContainer{
+   padding: 5px;
+   margin: 10px;
+   text-align: center;
+   font-weight: 400;
+   font-size: larger;
+   
+}
+
+/*Social*/
+
+#social{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.socialLinks{
+    color:  #5086c1;
+    font-size: 60px;
+    margin: 20px;
+    transition:0.2s;
+}
+
+.socialLinks:hover{
+    font-size: 70px;
+}
+
+#gitHub{
+    color: #000;
+}
+
+/*Education*/
+
+h2{
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+
+#education{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+#bachelorsDegrees{
+    display: flex;
+    flex-direction: row;
+    /*border: solid 1px black;*/
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+.about{
+    background-color: #c18b50;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    transition:0.5s;
+    
+}
+
+.aAbout{
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+#otherCoursesContainer,
+#bachelorsDegrees{
+    flex-wrap: wrap;
+}
+
+/*Outros cursos*/
+
+#otherCourses{
+    text-align: center;
+    border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+#otherCoursesContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.otherCoursesText{
+    padding: 1rem;
+}
+
+.otherCoursesItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.udemyImg{
+    width: 250px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*Projects*/
+
+#projects{
+    text-align: center;
+}
+
+#projectsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectImg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projectBtnContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.projectBtn{
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #c18b50;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.textProjectItem{
+    padding: 0 1rem;
+} 
+
+.projectBtn:hover{
+    cursor: pointer;
+    height: 60px;
+    background-color: #b37f48; ;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin:1rem;
+}
+
+
+
+
+@media(max-width: 870px){
+    #bachelorsDegrees,
+    #projectsContainer,
+    #otherCoursesContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectItem,
+    .otherCoursesItem,
+    .educationItem{
+        width: 100%;
+    }
+
+    .projectItem:hover,
+    .otherCoursesItem:hover,
+    .educationItem:hover{
+        width: 100%;
+    }
+    
+   
+    #apresentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profileImg{
+        margin: 0 auto;
+    }
+
+    h1{
+        margin-top: 1rem;
+    }
+
+}
+
+@media(max-width:570px){
+    h1{
+        font-size: larger;
+        width: 100%;  
+    }
+
+    #textApresentation,
+    #email{
+        font-size: medium;
+    }
+
+ #main-container{
+    margin-top: 9rem
+} 
+
+#profileImg{
+    width: 250px;
+    height: 250px;
+}
+    
+}
